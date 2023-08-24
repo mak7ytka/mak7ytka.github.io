@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-	max-width: 600px;
+	max-width: 390px;
 }
 
 .inner {
@@ -16,7 +16,7 @@ body {
 }
 
 .img {
-	width: 150px;
+	width: 300px;
 }
 
 .item {
