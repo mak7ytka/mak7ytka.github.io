@@ -7,17 +7,17 @@ body {
 }
 
 .container {
-	max-width: 600px;
+	max-width: 390px;
 }
 
 .inner {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 400px 400px 400px;
+	grid-template-rows: 200px 200px 200px;
 }
 
 .img {
-	width: 400px;
+	width: 300px;
 }
 
 .item {
@@ -28,7 +28,7 @@ body {
 	display: inline-block;
 	padding: 10px 20px;
 	border: none;
-	background: rgb(500, 168, 24);
+	background: rgb(248, 168, 24);
 	border-radius: 10px;
 	color: #fff;
 	text-transform: uppercase;
