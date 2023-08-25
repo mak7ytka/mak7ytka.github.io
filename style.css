@@ -12,6 +12,8 @@ body {
 
 .inner {
 	display: grid;
+    	width: 280px;
+    	grid-gap: 16px;
 
 }
 
