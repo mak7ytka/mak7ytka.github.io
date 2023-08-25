@@ -21,7 +21,10 @@ body {
 
 .item {
 	text-align: center;
+    	background: black;
+    	border-radius: 40px;
 }
+
 
 .btn {
 	display: inline-block;
