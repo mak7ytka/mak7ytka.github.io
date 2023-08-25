@@ -35,7 +35,7 @@ body {
 	padding: 10px 20px;
 	border: none;
 	background: var(--tg-theme-button-color);
-	border-radius: 50%;
+	border-radius: 20%;
 	color: #fff;
 	text-transform: uppercase;
 	bottom: 60px;
