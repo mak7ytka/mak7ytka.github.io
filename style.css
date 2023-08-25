@@ -42,9 +42,10 @@ body {
 	text-transform: uppercase;
 	bottom: 60px;
     	font-weight: 700;
-
     	position: relative;
 	transition: background .2s linear;
+	left: 50px;
+    	top: -20px;
 }
 
 .btn:hover {
