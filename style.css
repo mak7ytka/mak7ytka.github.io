@@ -9,7 +9,7 @@ body {
 .container {
 	max-width: 390px;
     	position: relative;
-    	left: 30px;
+    	left: 10px;
 }
 
 .inner {
