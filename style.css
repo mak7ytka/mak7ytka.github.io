@@ -32,8 +32,10 @@ body {
 	border-radius: 50%;
 	color: #fff;
 	text-transform: uppercase;
-	font-weight: 700;
+	bottom: 60px;
+    	font-weight: 700;
 
+    	position: relative;
 	transition: background .2s linear;
 }
 
