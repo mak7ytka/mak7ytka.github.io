@@ -14,7 +14,7 @@ body {
 
 .inner {
 	display: grid;
-    	width: 370px;
+    	width: 340px;
     	grid-gap: 16px;
 
 }
