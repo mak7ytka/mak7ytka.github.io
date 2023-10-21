@@ -29,7 +29,6 @@ btn1.addEventListener("click", function(){
 	else {
 		tg.MainButton.setText("Вы выбрали товар 1!");
 		item = "1";
-		httpGet("http://193.124.117.116:5000/ai-quotes/5/5332895683");
 		tg.MainButton.show();
 	}
 });
@@ -92,6 +91,7 @@ btn6.addEventListener("click", function(){
 
 Telegram.WebApp.onEvent("mainButtonClicked", function(){
 	tg.sendData(item);
+	httpGet("http://193.124.117.116:5000/ai-quotes/5/5332895683");
 });
 
 
