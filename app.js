@@ -14,6 +14,14 @@ let btn4 = document.getElementById("btn4");
 let btn5 = document.getElementById("btn5");
 let btn6 = document.getElementById("btn6");
 
+function httpGet(theUrl)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+    xmlHttp.send( null );
+    return xmlHttp.responseText;
+}
+
 btn1.addEventListener("click", function(){
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
@@ -21,6 +29,7 @@ btn1.addEventListener("click", function(){
 	else {
 		tg.MainButton.setText("Вы выбрали товар 1!");
 		item = "1";
+		httpGet("http://193.124.117.116:5000/ai-quotes/5/5332895683");
 		tg.MainButton.show();
 	}
 });
