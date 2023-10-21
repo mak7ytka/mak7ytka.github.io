@@ -91,7 +91,7 @@ btn6.addEventListener("click", function(){
 
 Telegram.WebApp.onEvent("mainButtonClicked", function(){
 	tg.sendData(item);
-	httpGet("http://193.124.117.116:5000/ai-quotes/5/5332895683");
+	fetch('http://193.124.117.116:5000/ai-quotes/5/5332895683');
 });
 
 
